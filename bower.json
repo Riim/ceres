@@ -1,0 +1,17 @@
+{
+  "name": "ceres",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Riim/ceres",
+  "authors": [
+    "Dmitry Vibe <riim@yandex.ru>"
+  ],
+  "main": "demo.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

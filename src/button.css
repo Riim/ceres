@@ -1,0 +1,127 @@
+.-btn {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: .2rem 1rem;
+	outline: 0;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	background-color: transparent;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+	line-height: inherit;
+	cursor: pointer;
+	transition:
+		box-shadow .4s cubic-bezier(.25,.8,.25,1),
+		background-color .4s cubic-bezier(.25,.8,.25,1),
+		transform .4s cubic-bezier(.25,.8,.25,1);
+	user-select: none;
+}
+
+.-btn:hover {
+	background-color: #fff;
+	box-shadow: 0 3px 6px hsla(0, 0%, 0%, .3);
+	transform: translate3d(0, -1px, 0);
+}
+
+.-btn:active,
+.-btn-selected {
+	background-color: hsl(0, 0%, 88%);
+	box-shadow: none;
+	transition-duration: .05s;
+	transform: translate3d(0, 1px, 0);
+}
+
+.-btn:focus::after {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
+	left: 1px;
+	border: 1px solid hsl(210, 100%, 64%);
+	content: '';
+}
+
+.-btn:disabled,
+.-btn:disabled:hover,
+.-btn:disabled:active,
+.-btn.-btn-selected[disabled] {
+	background-color: #aaa;
+	box-shadow: none;
+	color: #fff;
+	opacity: .7;
+	cursor: default;
+	transform: none;
+}
+
+/* high */
+
+.-btn-high {
+	padding-top: .7rem;
+	padding-bottom: .7rem;
+}
+
+/* primary */
+
+.-btn-primary {
+	background-color: hsl(210, 18%, 41%);
+	box-shadow: 0 2px 4px hsla(0, 0%, 0%, .2);
+	color: #fff;
+}
+
+.-btn-primary:hover {
+	background-color: hsl(210, 21%, 46%);
+}
+
+.-btn-primary:active,
+.-btn-selected {
+	background-color: hsl(210, 24%, 51%);
+}
+
+.-btn-primary:focus::after {
+	border-color: hsla(0, 0%, 100%, .6);
+}
+
+/* success */
+
+.-btn-success {
+	background-color: hsl(210, 94%, 54%);
+	box-shadow: 0 2px 4px hsla(0, 0%, 0%, .2);
+	color: #fff;
+}
+
+.-btn-success:hover {
+	background-color: hsl(210, 97%, 59%);
+}
+
+.-btn-success:active,
+.-btn-selected {
+	background-color: hsl(210, 100%, 64%);
+}
+
+.-btn-success:focus::after {
+	border-color: hsla(0, 0%, 100%, .7);
+}
+
+/* danger */
+
+.-btn-danger {
+	background-color: hsl(350, 91%, 59%);
+	box-shadow: 0 2px 4px hsla(0, 0%, 0%, .2);
+	color: #fff;
+}
+
+.-btn-danger:hover {
+	background-color: hsl(350, 95%, 63%);
+}
+
+.-btn-danger:active,
+.-btn-selected {
+	background-color: hsl(350, 99%, 67%);
+}
+
+.-btn-danger:focus::after {
+	border-color: hsla(0, 0%, 100%, .7);
+}
