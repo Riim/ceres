@@ -270,6 +270,8 @@ p .-select {
 .-checkbox,
 .-radiobox {
 	position: relative;
+	display: inline-block;
+	margin-bottom: .25rem;
 	-webkit-user-select: none;
 	   -moz-user-select: none;
 	    -ms-user-select: none;
@@ -289,14 +291,16 @@ p .-select {
 .-checkbox input + span,
 .-radiobox input + span {
 	position: relative;
-	top: .33rem;
+	top: 5px;
 	display: inline-block;
 	margin: 0 .5rem 0 .8rem;
-	width: 1.25rem;
-	height: 1.25rem;
+	padding: 3px;
+	width: 1rem;
+	height: 1rem;
 	border: 2px solid hsl(0, 0%, 65%);
 	border-radius: 2px;
 	background-color: #fff;
+	vertical-align: text-bottom;
 	cursor: pointer;
 }
 
@@ -387,7 +391,7 @@ p .-select {
 
 .-btn:hover {
 	background-color: #fff;
-	box-shadow: 0 3px 6px hsla(0, 0%, 0%, .3);
+	box-shadow: 0 2px 6px hsla(0, 0%, 0%, .3);
 	-webkit-transform: translate3d(0, -1px, 0);
 	        transform: translate3d(0, -1px, 0);
 }
@@ -519,7 +523,7 @@ p .-select {
 	padding: 4px 12px;
 	border-radius: 2px;
 	background-color: #000;
-	box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
+	box-shadow: 0 2px 6px hsla(0, 0%, 0%, .3);
 	color: #fff;
 	content: attr(data-hint);
 	text-align: center;
@@ -627,7 +631,7 @@ p .-select {
 	border: 2px solid hsl(0, 0%, 60%);
 	border-radius: 2px;
 	background-color: #fff;
-	box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+	box-shadow: 0 2px 6px hsla(0, 0%, 0%, .3);
 	white-space: nowrap;
 }
 

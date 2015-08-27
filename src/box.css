@@ -1,6 +1,8 @@
 .-checkbox,
 .-radiobox {
 	position: relative;
+	display: inline-block;
+	margin-bottom: .25rem;
 	user-select: none;
 }
 
@@ -17,14 +19,16 @@
 .-checkbox input + span,
 .-radiobox input + span {
 	position: relative;
-	top: .33rem;
+	top: 5px;
 	display: inline-block;
 	margin: 0 .5rem 0 .8rem;
-	width: 1.25rem;
-	height: 1.25rem;
+	padding: 3px;
+	width: 1rem;
+	height: 1rem;
 	border: 2px solid hsl(0, 0%, 65%);
 	border-radius: 2px;
 	background-color: #fff;
+	vertical-align: text-bottom;
 	cursor: pointer;
 }
 
