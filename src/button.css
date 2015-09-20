@@ -41,6 +41,7 @@
 	bottom: 1px;
 	left: 1px;
 	border: 1px solid hsl(210, 100%, 64%);
+	border-radius: 2px;
 	content: '';
 }
 

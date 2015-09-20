@@ -1,6 +1,6 @@
 {
   "name": "ceres",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,14 +17,14 @@
   },
   "homepage": "https://github.com/Riim/ceres#readme",
   "devDependencies": {
-    "autoprefixer": "^5.2.0",
+    "autoprefixer": "^6.0.3",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-csso": "^1.0.0",
-    "gulp-load-plugins": "^0.10.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
     "gulp-postcss": "^6.0.0",
     "gulp-rename": "^1.2.2",
-    "postcss-simple-vars": "^1.0.0",
+    "postcss-simple-vars": "^1.0.1",
     "require-dir": "^0.3.0"
   }
 }
