@@ -29,7 +29,7 @@
 	width: 25px;
 	height: 25px;
 	border-radius: 50%;
-	background-color: hsla(350, 100%, 50%, .53);
+	background-color: color($color-danger, s(100%), l(50%), a(.53));
 	text-indent: -9999px;
 	transform-origin: 50% 100%;
 	animation: -circles-preloader 3s infinite ease-in-out;
@@ -43,11 +43,11 @@
 	width: 25px;
 	height: 25px;
 	border-radius: 50%;
-	background-color: hsla(210, 100%, 50%, .53);
+	background-color: color($color-success, s(100%), l(50%), a(.53));
 	content: '';
 }
 
 .-circles-preloader::after {
 	left: 10.82532px;
-	background-color: hsla(210, 18%, 41%, .45);
+	background-color: color($color-primary, s(18%), l(41%), a(.45));
 }

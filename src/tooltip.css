@@ -33,31 +33,31 @@
 /* primary */
 
 .-tooltip-primary {
-	border-color: hsl(210, 18%, 41%);
+	border-color: $color-primary;
 }
 
 .-tooltip-primary::before {
-	border-top-color: hsl(210, 18%, 41%);
+	border-top-color: $color-primary;
 }
 
 /* success */
 
 .-tooltip-success {
-	border-color: hsl(210, 100%, 59%);
+	border-color: $color-success;
 }
 
 .-tooltip-success::before {
-	border-top-color: hsl(210, 100%, 59%);
+	border-top-color: $color-success;
 }
 
 /* danger */
 
 .-tooltip-danger {
-	border-color: hsl(350, 100%, 63%);
+	border-color: $color-danger;
 }
 
 .-tooltip-danger::before {
-	border-top-color: hsl(350, 100%, 63%);
+	border-top-color: $color-danger;
 }
 
 /* toRight */
@@ -85,15 +85,15 @@
 }
 
 .-tooltip-primary.-tooltip-toRight::before {
-	border-right-color: hsl(210, 18%, 41%);
+	border-right-color: $color-primary;
 }
 
 .-tooltip-success.-tooltip-toRight::before {
-	border-right-color: hsl(210, 100%, 59%);
+	border-right-color: $color-success;
 }
 
 .-tooltip-danger.-tooltip-toRight::before {
-	border-right-color: hsl(350, 100%, 63%);
+	border-right-color: $color-danger;
 }
 
 /* toBottom */
@@ -119,15 +119,15 @@
 }
 
 .-tooltip-primary.-tooltip-toBottom::before {
-	border-bottom-color: hsl(210, 18%, 41%);
+	border-bottom-color: $color-primary;
 }
 
 .-tooltip-success.-tooltip-toBottom::before {
-	border-bottom-color: hsl(210, 100%, 59%);
+	border-bottom-color: $color-success;
 }
 
 .-tooltip-danger.-tooltip-toBottom::before {
-	border-bottom-color: hsl(350, 100%, 63%);
+	border-bottom-color: $color-danger;
 }
 
 /* toLeft */
@@ -154,15 +154,15 @@
 }
 
 .-tooltip-primary.-tooltip-toLeft::before {
-	border-left-color: hsl(210, 18%, 41%);
+	border-left-color: $color-primary;
 }
 
 .-tooltip-success.-tooltip-toLeft::before {
-	border-left-color: hsl(210, 100%, 59%);
+	border-left-color: $color-success;
 }
 
 .-tooltip-danger.-tooltip-toLeft::before {
-	border-left-color: hsl(350, 100%, 63%);
+	border-left-color: $color-danger;
 }
 
 /* container */

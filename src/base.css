@@ -11,7 +11,7 @@ form, label, input, button, select, datalist, optgroup, option, textarea, keygen
 	legend {
 		margin: 0;
 		padding: 0;
-		outline-color: hsl(210, 100%, 64%);
+		outline-color: $color-success;
 		vertical-align: baseline;
 		font-weight: inherit;
 		font-style: inherit;
@@ -149,7 +149,7 @@ dt { font-weight: bold; }
 dd { margin: 0 0 1rem 1.5rem; }
 
 a {
-	color: hsl(210, 100%, 40%);
+	color: color($color-success l(- 15%));
 	text-decoration: underline;
 }
 

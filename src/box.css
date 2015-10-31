@@ -43,7 +43,7 @@
 
 .-checkbox input:focus + span,
 .-radiobox input:focus + span {
-	border-color: hsl(210, 100%, 64%);
+	border-color: $color-success;
 }
 
 .-checkbox input:disabled + span,

@@ -1,4 +1,5 @@
 var postcssSimpleVars = require('postcss-simple-vars');
+var postcssColorFunction = require('postcss-color-function');
 var autoprefixer = require('autoprefixer');
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
@@ -10,6 +11,7 @@ gulp.task('build', function() {
 		.pipe($.concat(config.styles.outputName + '.css'))
 		.pipe($.postcss([
 			postcssSimpleVars,
+			postcssColorFunction,
 			autoprefixer({ browsers: ['last 2 version', '> 1%'] })
 		]))
 		.pipe(gulp.dest(config.dist))

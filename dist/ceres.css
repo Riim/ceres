@@ -11,7 +11,7 @@ form, label, input, button, select, datalist, optgroup, option, textarea, keygen
 	legend {
 		margin: 0;
 		padding: 0;
-		outline-color: hsl(210, 100%, 64%);
+		outline-color: hsl(210, 94%, 54%);
 		vertical-align: baseline;
 		font-weight: inherit;
 		font-style: inherit;
@@ -149,7 +149,7 @@ dt { font-weight: bold; }
 dd { margin: 0 0 1rem 1.5rem; }
 
 a {
-	color: hsl(210, 100%, 40%);
+	color: rgb(6, 99, 193);
 	text-decoration: underline;
 }
 
@@ -218,7 +218,7 @@ legend {
 
 .-textfield:focus {
 	outline: none;
-	border-color: hsl(210, 100%, 64%);
+	border-color: hsl(210, 94%, 54%);
 }
 
 .-textfield:disabled {
@@ -267,7 +267,7 @@ p .-textfield {
 
 .-select select:focus {
 	outline: none;
-	border-color: hsl(210, 100%, 64%);
+	border-color: hsl(210, 94%, 54%);
 }
 
 p .-select {
@@ -322,7 +322,7 @@ p .-select {
 
 .-checkbox input:focus + span,
 .-radiobox input:focus + span {
-	border-color: hsl(210, 100%, 64%);
+	border-color: hsl(210, 94%, 54%);
 }
 
 .-checkbox input:disabled + span,
@@ -419,7 +419,7 @@ p .-select {
 	right: 1px;
 	bottom: 1px;
 	left: 1px;
-	border: 1px solid hsl(210, 100%, 64%);
+	border: 1px solid hsl(210, 94%, 54%);
 	border-radius: 2px;
 	content: '';
 }
@@ -454,12 +454,12 @@ p .-select {
 }
 
 .-btn-primary:hover {
-	background-color: hsl(210, 21%, 46%);
+	background-color: rgb(90, 115, 140);
 }
 
 .-btn-primary:active,
 .-btn-selected {
-	background-color: hsl(210, 24%, 51%);
+	background-color: rgb(92, 125, 157);
 }
 
 .-btn-primary:focus::after {
@@ -475,12 +475,12 @@ p .-select {
 }
 
 .-btn-success:hover {
-	background-color: hsl(210, 97%, 59%);
+	background-color: rgb(43, 148, 253);
 }
 
 .-btn-success:active,
 .-btn-selected {
-	background-color: hsl(210, 100%, 64%);
+	background-color: rgb(61, 158, 255);
 }
 
 .-btn-success:focus::after {
@@ -490,18 +490,18 @@ p .-select {
 /* danger */
 
 .-btn-danger {
-	background-color: hsl(350, 91%, 59%);
+	background-color: hsl(350, 91%, 58%);
 	box-shadow: 0 2px 4px hsla(0, 0%, 0%, .2);
 	color: #fff;
 }
 
 .-btn-danger:hover {
-	background-color: hsl(350, 95%, 63%);
+	background-color: rgb(250, 66, 97);
 }
 
 .-btn-danger:active,
 .-btn-selected {
-	background-color: hsl(350, 99%, 67%);
+	background-color: rgb(254, 82, 111);
 }
 
 .-btn-danger:focus::after {
@@ -679,21 +679,21 @@ p .-select {
 /* success */
 
 .-tooltip-success {
-	border-color: hsl(210, 100%, 59%);
+	border-color: hsl(210, 94%, 54%);
 }
 
 .-tooltip-success::before {
-	border-top-color: hsl(210, 100%, 59%);
+	border-top-color: hsl(210, 94%, 54%);
 }
 
 /* danger */
 
 .-tooltip-danger {
-	border-color: hsl(350, 100%, 63%);
+	border-color: hsl(350, 91%, 58%);
 }
 
 .-tooltip-danger::before {
-	border-top-color: hsl(350, 100%, 63%);
+	border-top-color: hsl(350, 91%, 58%);
 }
 
 /* toRight */
@@ -729,11 +729,11 @@ p .-select {
 }
 
 .-tooltip-success.-tooltip-toRight::before {
-	border-right-color: hsl(210, 100%, 59%);
+	border-right-color: hsl(210, 94%, 54%);
 }
 
 .-tooltip-danger.-tooltip-toRight::before {
-	border-right-color: hsl(350, 100%, 63%);
+	border-right-color: hsl(350, 91%, 58%);
 }
 
 /* toBottom */
@@ -765,11 +765,11 @@ p .-select {
 }
 
 .-tooltip-success.-tooltip-toBottom::before {
-	border-bottom-color: hsl(210, 100%, 59%);
+	border-bottom-color: hsl(210, 94%, 54%);
 }
 
 .-tooltip-danger.-tooltip-toBottom::before {
-	border-bottom-color: hsl(350, 100%, 63%);
+	border-bottom-color: hsl(350, 91%, 58%);
 }
 
 /* toLeft */
@@ -804,11 +804,11 @@ p .-select {
 }
 
 .-tooltip-success.-tooltip-toLeft::before {
-	border-left-color: hsl(210, 100%, 59%);
+	border-left-color: hsl(210, 94%, 54%);
 }
 
 .-tooltip-danger.-tooltip-toLeft::before {
-	border-left-color: hsl(350, 100%, 63%);
+	border-left-color: hsl(350, 91%, 58%);
 }
 
 /* container */
@@ -920,7 +920,7 @@ p .-select {
 	width: 25px;
 	height: 25px;
 	border-radius: 50%;
-	background-color: hsla(350, 100%, 50%, .53);
+	background-color: rgb(245, 50, 83);
 	text-indent: -9999px;
 	-webkit-transform-origin: 50% 100%;
 	    -ms-transform-origin: 50% 100%;
@@ -937,13 +937,13 @@ p .-select {
 	width: 25px;
 	height: 25px;
 	border-radius: 50%;
-	background-color: hsla(210, 100%, 50%, .53);
+	background-color: rgb(27, 138, 248);
 	content: '';
 }
 
 .-circles-preloader::after {
 	left: 10.82532px;
-	background-color: hsla(210, 18%, 41%, .45);
+	background-color: rgb(86, 105, 123);
 }
 
 .-row {

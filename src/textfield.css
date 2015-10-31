@@ -10,7 +10,7 @@
 
 .-textfield:focus {
 	outline: none;
-	border-color: hsl(210, 100%, 64%);
+	border-color: $color-success;
 }
 
 .-textfield:disabled {

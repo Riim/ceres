@@ -7,6 +7,7 @@ var config = {
 
 	styles: {
 		src: [
+			src + '/vars.css',
 			src + '/base.css',
 			src + '/textfield.css',
 			src + '/select.css',

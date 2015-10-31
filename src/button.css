@@ -40,7 +40,7 @@
 	right: 1px;
 	bottom: 1px;
 	left: 1px;
-	border: 1px solid hsl(210, 100%, 64%);
+	border: 1px solid $color-success;
 	border-radius: 2px;
 	content: '';
 }
@@ -67,18 +67,18 @@
 /* primary */
 
 .-btn-primary {
-	background-color: hsl(210, 18%, 41%);
+	background-color: $color-primary;
 	box-shadow: 0 2px 4px hsla(0, 0%, 0%, .2);
 	color: #fff;
 }
 
 .-btn-primary:hover {
-	background-color: hsl(210, 21%, 46%);
+	background-color: color($color-primary s(+ 4%) l(+ 4%));
 }
 
 .-btn-primary:active,
 .-btn-selected {
-	background-color: hsl(210, 24%, 51%);
+	background-color: color($color-primary s(+ 8%) l(+ 8%));
 }
 
 .-btn-primary:focus::after {
@@ -88,18 +88,18 @@
 /* success */
 
 .-btn-success {
-	background-color: hsl(210, 94%, 54%);
+	background-color: $color-success;
 	box-shadow: 0 2px 4px hsla(0, 0%, 0%, .2);
 	color: #fff;
 }
 
 .-btn-success:hover {
-	background-color: hsl(210, 97%, 59%);
+	background-color: color($color-success s(+ 4%) l(+ 4%));
 }
 
 .-btn-success:active,
 .-btn-selected {
-	background-color: hsl(210, 100%, 64%);
+	background-color: color($color-success s(+ 8%) l(+ 8%));
 }
 
 .-btn-success:focus::after {
@@ -109,18 +109,18 @@
 /* danger */
 
 .-btn-danger {
-	background-color: hsl(350, 91%, 59%);
+	background-color: $color-danger;
 	box-shadow: 0 2px 4px hsla(0, 0%, 0%, .2);
 	color: #fff;
 }
 
 .-btn-danger:hover {
-	background-color: hsl(350, 95%, 63%);
+	background-color: color($color-danger s(+ 4%) l(+ 4%));
 }
 
 .-btn-danger:active,
 .-btn-selected {
-	background-color: hsl(350, 99%, 67%);
+	background-color: color($color-danger s(+ 8%) l(+ 8%));
 }
 
 .-btn-danger:focus::after {
