@@ -448,18 +448,18 @@ p .-select {
 /* primary */
 
 .-btn-primary {
-	background-color: hsl(210, 18%, 41%);
+	background-color: hsl(210, 18%, 40%);
 	box-shadow: 0 2px 4px hsla(0, 0%, 0%, .2);
 	color: #fff;
 }
 
 .-btn-primary:hover {
-	background-color: rgb(90, 115, 140);
+	background-color: rgb(88, 112, 137);
 }
 
 .-btn-primary:active,
 .-btn-selected {
-	background-color: rgb(92, 125, 157);
+	background-color: rgb(91, 122, 154);
 }
 
 .-btn-primary:focus::after {
@@ -669,11 +669,11 @@ p .-select {
 /* primary */
 
 .-tooltip-primary {
-	border-color: hsl(210, 18%, 41%);
+	border-color: hsl(210, 18%, 40%);
 }
 
 .-tooltip-primary::before {
-	border-top-color: hsl(210, 18%, 41%);
+	border-top-color: hsl(210, 18%, 40%);
 }
 
 /* success */
@@ -725,7 +725,7 @@ p .-select {
 }
 
 .-tooltip-primary.-tooltip-toRight::before {
-	border-right-color: hsl(210, 18%, 41%);
+	border-right-color: hsl(210, 18%, 40%);
 }
 
 .-tooltip-success.-tooltip-toRight::before {
@@ -761,7 +761,7 @@ p .-select {
 }
 
 .-tooltip-primary.-tooltip-toBottom::before {
-	border-bottom-color: hsl(210, 18%, 41%);
+	border-bottom-color: hsl(210, 18%, 40%);
 }
 
 .-tooltip-success.-tooltip-toBottom::before {
@@ -800,7 +800,7 @@ p .-select {
 }
 
 .-tooltip-primary.-tooltip-toLeft::before {
-	border-left-color: hsl(210, 18%, 41%);
+	border-left-color: hsl(210, 18%, 40%);
 }
 
 .-tooltip-success.-tooltip-toLeft::before {
@@ -943,7 +943,7 @@ p .-select {
 
 .-circles-preloader::after {
 	left: 10.82532px;
-	background-color: rgb(86, 105, 123);
+	background-color: rgb(84, 102, 120);
 }
 
 .-row {

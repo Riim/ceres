@@ -49,5 +49,5 @@
 
 .-circles-preloader::after {
 	left: 10.82532px;
-	background-color: color($color-primary, s(18%), l(41%), a(.45));
+	background-color: color($color-primary, s(18%), l(40%), a(.45));
 }
