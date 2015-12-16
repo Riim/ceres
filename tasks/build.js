@@ -4,7 +4,7 @@ var autoprefixer = require('autoprefixer');
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 
-var config = require('../config');
+var config = require('../build/config');
 
 gulp.task('build', function() {
 	return gulp.src(config.styles.src)
